@@ -23,7 +23,7 @@ body{
 }
 
 .cabecalho-imagem{
-    height: 72px;
+    height: 70px;
 }
 
 .cabecalho-menu{
@@ -68,6 +68,7 @@ body{
     font-weight: 400;
     font-size: 24px;
     color: #ecd6c4;
+    margin-top: 30px;
 }
 
 .conteudo-principal-escrito-botao{
@@ -89,7 +90,9 @@ body{
 }
 
 .conteudo-principal-imagem{
-    height: 430px;
+    height: 300px;
+    border-radius: 150px;
+    margin-right: 70px;
 }
 
 .conteudo-secundario{
@@ -123,7 +126,14 @@ body{
 }
 
 .rodape-imagem{
-    height: 48px;
-    display: block;
-    margin: 0 auto;
+    width: 40px;
+    display: inline-flex;
+    justify-items: center;
+    border: 2px solid #fff2e7;
+    border-radius: 50%;
+    margin-left: 20px;  
+}
+
+.rodape-imagem :hover{
+    background: fff2e7;
 }
